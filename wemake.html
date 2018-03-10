@@ -19,7 +19,7 @@
 	</a>
 	<!-- */Botón para ir al principio -->  
   <!-- ********** BARRA DE NAVEGACIÓN -->
-  <nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <nav id="navbar" class="navbar navbar-default" role="navigation">
     <div class="container">      
       <!-- El logotipo y el icono que despliega el menú se agrupan para mostrarlos mejor en los dispositivos móviles -->
       <div class="navbar-header">
@@ -50,31 +50,126 @@
         <div class="row">
 
           <div class="col-sm-4 center-block text-center">
-            <div class="icono-cont center-block text-center">
+            <div class="icono-cont center-block text-center" data-toggle="modal" data-target="#modal-produccion">
               <img class="img-responsive center-block" src="assets/img/icono-produccion.png" alt="...">
               producción de eventos
             </div>
           </div>
 
           <div class="col-sm-4 center-block text-center">
-            <div class="icono-cont center-block text-center">
+            <div class="icono-cont center-block text-center" data-toggle="modal" data-target="#modal-logistica">
               <img class="img-responsive center-block" src="assets/img/icono-logistica.png" alt="...">
               servicio de logística
             </div>
           </div>
 
-          <div class="col-sm-4 center-block text-center">
+          <div class="col-sm-4 center-block text-center" data-toggle="modal" data-target="#modal-especiales">
             <div class="icono-cont center-block text-center">
               <img class="img-responsive center-block" src="assets/img/icono-especiales.png" alt="...">
               servicios especiales
             </div>
           </div>
 
+          <!-- Modals -->
+
+          <!-- modal-produccion -->
+          <div id="modal-produccion" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="row icono-container">
+                    <div class="col-sm-4 center-block text-center">
+                      <img src="assets/img/icono-produccion.png" alt="...">
+                      <p class="title-bar-modal">producción de eventos</p>                       
+                    </div>
+                    <div class="col-sm-4 center-block text-center"></div>
+                    <div class="col-sm-4 center-block text-center"></div>
+                  </div> 
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>Estructuras, tecnología y soportes (interiores y exteriores).</li>
+                    <li>Iluminación Robótica de alto impacto.</li>
+                    <li>Luces de última generación.</li>
+                    <li>Efectos especiales.</li>
+                    <li>Sonido de alta calidad (interiores exteriores).</li>
+                    <li>Estructuras en aluminio de pequeño, mediano y grandes formatos.</li>
+                    <li>Trimalla.</li>
+                    <li>Pantalla Led de alta resolución.</li> 
+                    <li>Pantalla y video beam de pequeño, mediano y gran reproducción.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.modal-produccion -->
+
+          <!-- modal-logistica -->
+          <div id="modal-logistica" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="row icono-container">
+                    <div class="col-sm-4 center-block text-center"></div>
+                    <div class="col-sm-4 center-block text-center">
+                      <img src="assets/img/icono-logistica.png" alt="...">
+                      <p class="title-bar-modal">servicio de logística</p>                       
+                    </div>
+                    <div class="col-sm-4 center-block text-center"></div>
+                  </div> 
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>Montaje y desmontaje.</li>
+                    <li>Modelos.</li>
+                    <li>Artistas.</li>
+                    <li>Protocolo.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.modal-logistica -->
+
+          <!-- modal-especiales -->
+          <div id="modal-especiales" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <div class="row icono-container">
+                    <div class="col-sm-4 center-block text-center">.</div>
+                    <div class="col-sm-4 center-block text-center">.</div>
+                    <div class="col-sm-4 center-block text-center">                      
+                      <img src="assets/img/icono-especiales.png" alt="...">
+                      <p class="title-bar-modal">servicio especiales</p> 
+                    </div>
+                  </div> 
+                </div>
+                <div class="modal-body">
+                  <ul>
+                    <li>Escenografia.</li>
+                    <li>Catering.</li>
+                    <li>Fotografía y video.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.modal-especiales -->
+
         </div><!-- /.row -->      
-      </div>
+      </div><!-- /.modals-cont -->
      
     </div><!-- /.container -->
   </section>
+
+
+  
+
+
 
   <!-- /. MODALS DE SERVICIOS -->  
 <!-- ********** FOOTER -->
