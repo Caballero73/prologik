@@ -15,7 +15,7 @@
    id="svg9168"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="rombo-orange.svg">
+   sodipodi:docname="rombo-orange2.svg">
   <defs
      id="defs9170">
     <filter
@@ -59,8 +59,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="6.3967461"
-     inkscape:cx="10.368454"
-     inkscape:cy="37.60344"
+     inkscape:cx="-19.724971"
+     inkscape:cy="37.290781"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -92,7 +92,7 @@
      transform="translate(-336.94374,-476.45684)">
     <path
        transform="matrix(0.66640478,-0.74559014,0.66640478,0.74559014,0,0)"
-       style="fill:#df5516;fill-opacity:1;stroke:none;stroke-width:0.37587479;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#da4711;fill-opacity:1;stroke:none;stroke-width:0.37587479;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
        d="m -96.197174,601.8114 58.975391,58.97539 -58.975391,0 z"
        id="rect9187"
        inkscape:connector-curvature="0"
