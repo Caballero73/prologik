@@ -44,3 +44,15 @@ $('.aboutus-carrusel2').slick({
     }
   ]
 });
+
+//Carrusel Success
+$(document).ready(function(){
+  $('.success-carrusel').slick({
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    arrows: false,
+    adaptiveHeight: true,
+  });
+});
