@@ -45,19 +45,40 @@
   <!-- /. BARRA DE NAVEGACIÓN -->
   
   <!-- ********** INDEX INTRO -->
-  <section id="index_intro" class="flex-center-v hidden-sm hidden-xs">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-7 col-md-6 col-lg-4">
-          <h1><span class="secondary-color">ORGANIZAMOS,</span>
-          ADMINISTRAMOS Y 
-          <span class="primary-color">PRODUCIMOS</span>
-          EVENTOS</h1>
-          
-          <a class="btn btn-secondary btn-lg mt-1 text-uppercase smooth-scroll" style="width: 100%" href="#index_services">ver más</a>       
-        </div>
-      </div><!-- /.row -->      
-    </div><!-- /.container --> 
+  <section id="index_intro" class="hidden-sm hidden-xs">
+
+    <div id="index-slides" class="carousel slide" data-ride="carousel">
+      <!-- Diapositivas -->
+      <div class="carousel-inner">
+        <div class="item active"><img src="assets/img/img-bg-intro-slide1.jpg" alt="Foto"></div>
+        <div class="item"><img src="assets/img/img-bg-intro-slide2.jpg" alt="Foto"></div>
+        <div class="item"><img src="assets/img/img-bg-intro-slide3.jpg" alt="Foto"></div>
+        <div class="item"><img src="assets/img/img-bg-intro-slide4.jpg" alt="Foto"></div>
+      </div>
+
+      <!-- Controles -->
+      <a class="left carousel-control" href="#index-slides" data-slide="prev">
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="right carousel-control" href="#index-slides" data-slide="next">
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+    
+    <div id="text-cont" class="flex-center-v">      
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-7 col-md-6 col-lg-4">
+            <h1><span class="secondary-color">ORGANIZAMOS,</span>
+            ADMINISTRAMOS Y 
+            <span class="primary-color">PRODUCIMOS</span>
+            EVENTOS</h1>
+            
+            <a class="btn btn-secondary btn-lg mt-1 text-uppercase smooth-scroll" style="width: 100%" href="#index_services">ver más</a>       
+          </div>
+        </div><!-- /.row -->      
+      </div><!-- /.container --> 
+    </div><!-- ./#text-cont -->
     
   </section>
   <!-- /. INDEX INTRO -->  
